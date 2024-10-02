@@ -1,7 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:hello_world/basic_widgets/date_time_picker_widget.dart';
+import 'package:hello_world/basic_widgets/dialog_widget.dart';
+import 'package:hello_world/basic_widgets/scaffold_widget.dart';
+import 'package:hello_world/basic_widgets/fab_widget.dart';
+import 'package:hello_world/basic_widgets/text_widget.dart';
+import 'package:hello_world/basic_widgets/image_widget.dart';
+import 'package:hello_world/basic_widgets/loading_cupertino.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const LoadingCupertino());
 }
 
 class MyApp extends StatelessWidget {
@@ -31,7 +38,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const Scaffold(body: DialogWidget()),
     );
   }
 }
@@ -105,9 +112,7 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text(
-              'You have pushed the button this many times:',
-            ),
+            const MyImageWidget(),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,

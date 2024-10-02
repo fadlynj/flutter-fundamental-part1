@@ -2,15 +2,29 @@
 
 A new Flutter project.
 
-## Getting Started
+## Praktikum 1
 
-This project is a starting point for a Flutter application.
+![Screenshot Praktikum 1](./images/02.png)
 
-A few resources to get you started if this is your first Flutter project:
+![Screenshot Praktikum 1](./images/03.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![Screenshot Praktikum 1](./images/04.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot Praktikum 1](./images/05.png)
+
+![Screenshot Praktikum 1](./images/06.png)
+
+## Praktikum 2
+
+## Praktikum 3
+
+![Screenshot hello_world](./images/01.png)
+
+## Praktikum 4
+
+![Screenshot Praktikum 4](./images/07.png)
+
+![Screenshot Praktikum 4](./images/08.png)
+
+## Praktikum 5
+
